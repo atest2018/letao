@@ -157,6 +157,12 @@ $(function() {
   
   });
   
+  // 功能4: 点击每个商品实现页面跳转, 注册点击事件, 通过事件委托注册, 注册 tap 事件
+  $('.lt_product').on("tap", "a", function() {
+    var id = $(this).data("id");
+    location.href = "product.html?productId=" + id;
+  });
+  
   
   
   
