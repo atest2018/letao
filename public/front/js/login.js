@@ -1,6 +1,3 @@
-/**
- * Created by Jepson on 2018/8/23.
- */
 $(function() {
   
   // 登录功能
